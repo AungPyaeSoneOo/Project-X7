@@ -19,10 +19,11 @@ body{
     left: 0;
     right: 0;
     width: 100%;
+    background-color: #3498db;
 }
 a{
     text-decoration: none;
-    padding: 30px;
+    padding: 5px;
     color: white;
 }
 .container1{

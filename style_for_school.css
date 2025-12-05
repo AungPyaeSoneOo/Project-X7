@@ -80,7 +80,7 @@ p{
 }
 
 .dropbtn{
-    background-color: dodgerblue;
+    background-color: #3498db;
     color: white;
     padding: 12px;
     font-size: 16px;
@@ -124,6 +124,7 @@ a{
     color: white;
     height: 18px;
     align-items: center;
+    background-color: #3498db;
 }
 .footer {
   background: #111;
