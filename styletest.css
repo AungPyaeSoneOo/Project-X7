@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    padding-top: 72px; 
+    background-color: black;
+}
+.menu-bar{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    color:white;
+    height: 25px;
+    font-size: 20px;
+    background-color:coral;
+    z-index: 10000; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #3498db;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.container1{
+    display: flex;
+    border-radius: 30px;
+    background-color:ghostwhite;
+    height: 300px;
+    width: 300px;
+    justify-content: space-around;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+h1{
+    color:dodgerblue;
+
+}
+
+.intro{
+    display: block; 
+    padding: 24px 16px;
+    margin: 30px 20px;
+    font-family: cursive;
+    max-width: 1100px;
+}
+
+.container9{
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 24px 32px;
+    border-radius: 20px;
+    background-color: rgba(66, 52, 52, 0.6);
+    color: #000;
+}
+
+
+
+
+img{
+    height: 200px;
+    width: 300px;
+}
+p{
+    font-size: 20px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #3498db;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #111; 
+    min-width: 140px;
+    border: 1px solid #222;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    z-index: 9999;
+    margin-top: 0; 
+}
+.dropdown-content a{
+    color: #fff; 
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #333;
+}
+.containerlogin{
+    width: 500px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8ox rgba (0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+h2{
+    margin-bottom:20px;
+    color: #333;
+}
+body{
+    height: 100%;
+}
+
+.hero-image{
+  background-image: url("background image home.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;            
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text{
+  color: #fff;
+  text-align: center;
+  background: rgba(0,0,0,0.35);
+  padding: 12px;
+  border-radius: 6px;
+}
+.signup-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu-bar a{
+    color: white;
+}
+
+
+.dropbtn:focus{
+    outline: none;
+}
+
+
+.dropdown-content{
+    z-index: 9999;
+}
+.hero-image2{
+  background-image: url("Black\ \ White\ Minimal\ Simple\ Handwritten\ \ Dynamic\ Studio\ Logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;            
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-in-login{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.container10{
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 24px 32px;
+    border-radius: 20px;
+    background-color: rgba(66, 52, 52, 0.6);
+    color: white;
+    height: 250px;
+}
+.container11{
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 24px 32px;
+    border-radius: 20px;
+    background-color: rgba(66, 52, 52, 0.6);
+    color: #000;
+}
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 6px;
+}
+
+.footer-section a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  font-size: 14px;
+}
+h2{
+    text-align: center;
+    margin: 6px 0 12px 0; 
+    color: white;
+}
