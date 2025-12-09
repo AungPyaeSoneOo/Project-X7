@@ -191,6 +191,7 @@ p{
 .comparison-table{
     border-collapse: collapse;
     width: 100%;
+    padding-left: 500px;
 }
 .comparison-table th,
 .comparison-table td{
@@ -204,6 +205,7 @@ p{
 .table2{
     border-collapse: collapse;
     width: 100%;
+    padding-left: 500px;
 }
 .table2 th,
 .table2 td{
